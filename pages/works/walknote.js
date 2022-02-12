@@ -1,22 +1,18 @@
 import {
   Container,
   Badge,
-  Link,
+ 
   List,
   ListItem,
-  SimpleGrid,
-  UnorderedList,
-  Heading,
-  Center,
-  Box
+ 
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
+// import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import { AspectRatio } from '@chakra-ui/react'
-import { SlideFood } from './slideDataFoodly'
-import {ImageSlider} from './ImageSlider';
+// import { SlideFood } from './slideDataFoodly'
+// import {ImageSlider} from './ImageSlider';
 
 
 //FOODLY
@@ -103,7 +99,7 @@ const Work = () => (
           src="https://player.vimeo.com/video/675921106?h=5eb391ac0e"
           width="640"
           height="360"
-          frameborder="0"
+          frameBorder="0"
           allowfullscreen
         />
       </AspectRatio>

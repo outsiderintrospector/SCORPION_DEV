@@ -6,7 +6,7 @@ import {
   Heading,
   Box,
   Image,
-  SimpleGrid,
+
   Button,
   List,
   ListItem,
@@ -14,7 +14,7 @@ import {
   useColorModeValue,
   FormControl,
   FormLabel,
-  FormErrorMessage,
+ 
   Stack,
   Textarea,
   Input
