@@ -1,3 +1,4 @@
+import React, { useRef } from 'react'
 import NextLink from 'next/link'
 import {
   Link,
@@ -23,45 +24,46 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-import {
-  IoLogoTwitter,
-  IoLogoLinkedin,
-  IoLogoGithub,
-  IoArrowForward
-} from 'react-icons/io5'
+// import { GridItem } from '../components/grid-item'
+import { IoLogoLinkedin, IoLogoGithub, IoArrowForward } from 'react-icons/io5'
 
-import Head from 'next/head'
-import { form } from 'react'
 import { useState } from 'react'
-import axios from 'axios'
-import emailjs from 'emailjs-com'
 
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import emailjs from '@emailjs/browser'
+
+// import thumbYouTube from '../public/images/links/youtube.png'
+// import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 
 const Home = () => {
-  const [toSend, setToSend] = useState({
-    from_name: '',
-    message: '',
-    reply_to: ''
-  })
+  const [state, setState] = useState({ name: '', email: '', message: '' })
+ const form = useRef()
 
-  const onSubmit = e => {
+
+  const handleChange = event => {
+    const { name, value } = event.target
+    setState({
+      ...state,
+      [name]: value
+    })
+  }
+
+  const serviceID = '001'
+  const templateID = 'template_c2rko7j'
+  const userID = 'user_ls8ZeYTRPmkEIac4fZHVH'
+
+  const handlePress = (e) => {
     e.preventDefault()
-    emailjs
-      .send('001', 'template_c2rko7j', toSend, 'user_ls8ZeYTRPmkEIac4fZHVH')
-      .then(response => {
-        console.log('SUCCESS!', response.status, response.text)
-      })
-      .catch(err => {
-        console.log('FAILED...', err)
-      })
+   emailjs
+     .send(serviceID, templateID, state, userID)
+     .then(result => {
+       console.log(result.text)
+     })
+     .catch(err => {
+       console.log(err.text)
+     })
+     setState('')
   }
 
-  const handleChange = e => {
-    setToSend({ ...toSend, [e.target.name]: e.target.value })
-  }
   return (
     <Layout>
       <Container>
@@ -232,50 +234,56 @@ const Home = () => {
             Contact Me
           </Heading>
 
-          <form>
-            <FormControl onSubmit={onSubmit}>
+          <form ref={form}>
+            <FormControl onSubmit={handlePress}>
               <Stack spacing={3}>
                 {' '}
                 <Input
+                  placeholder="Your name"
+                  name="name"
                   type="text"
-                  name="from_name"
-                  placeholder="from name"
-                  value={toSend.from_name}
                   onChange={handleChange}
                   size="sm"
                   variant="filled"
                 />
-                <Textarea
+                {/* <Input
                   type="text"
+                  name="subject"
+                  placeholder="Subject"
+                  value={inputs.subject}
+                  onChange={handleChange}
+                  size="sm"
+                  variant="filled"
+                /> */}
+                <Textarea
+                  placeholder="message"
                   name="message"
-                  placeholder="Your message"
-                  value={toSend.message}
+                  type="text"
                   onChange={handleChange}
                   variant="filled"
                 />
                 <FormLabel htmlFor="email">Email address</FormLabel>
                 <Input
-                  type="text"
-                  name="reply_to"
                   placeholder="Your email"
-                  value={toSend.reply_to}
+                  name="email"
+                  type="text"
                   onChange={handleChange}
                   size="xs"
                   isRequired={true}
                   variant="filled"
                 />
               </Stack>{' '}
-            
-            </FormControl>  <Button
-                mt={4}
-                colorScheme="teal"
-                variant="ghost"
-                type="submit"
-                rightIcon={<IoArrowForward />}
-                
-              >
-                Send
-              </Button>
+            </FormControl>{' '}
+            <Button
+              mt={4}
+              colorScheme="teal"
+              variant="ghost"
+              type="submit"
+              rightIcon={<IoArrowForward />}
+              onClick={handlePress}
+            >
+              Send
+            </Button>
           </form>
 
           <Box align="center" my={4}>
