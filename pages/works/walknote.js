@@ -100,7 +100,7 @@ const Work = () => (
           width="640"
           height="360"
           frameBorder="0"
-          allowFullscreen
+          allowFullScreen
         />
       </AspectRatio>
       {/* SLIDER */}
