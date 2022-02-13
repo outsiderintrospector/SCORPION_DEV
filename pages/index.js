@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import NextLink from 'next/link'
 import {
   Link,
@@ -6,7 +6,6 @@ import {
   Heading,
   Box,
   Image,
-
   Button,
   List,
   ListItem,
@@ -14,10 +13,16 @@ import {
   useColorModeValue,
   FormControl,
   FormLabel,
- 
   Stack,
   Textarea,
-  Input
+  Input,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -26,18 +31,36 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 // import { GridItem } from '../components/grid-item'
 import { IoLogoLinkedin, IoLogoGithub, IoArrowForward } from 'react-icons/io5'
-
 import { useState } from 'react'
-
-import emailjs from '@emailjs/browser'
+import { send } from '@emailjs/browser'
 
 // import thumbYouTube from '../public/images/links/youtube.png'
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 
 const Home = () => {
-  const [state, setState] = useState({ name: '', email: '', message: '' })
- const form = useRef()
+  const [state, setState] = useState({
+    from_name: '',
+    message: '',
+    reply_to: ''
+  })
+  const [modalVisible, setModalVisible] = useState(false)
+  // const form = useRef()∆
+  const serviceID = '001'
+  const templateID = 'template_c2rko7j'
+  const userID = 'user_ls8ZeYTRPmkEIac4fZHVH'
 
+  const handlePress = e => {
+    e.preventDefault()
+    send(serviceID, templateID, state, userID)
+      .then(response => {
+        console.log('SUCCESS!', response.status, response.text)
+      })
+      .catch(err => {
+        console.log('FAILED...', err)
+      })
+    setModalVisible(true)
+    setState({ from_name: '', message: '', reply_to: '' })
+  }
 
   const handleChange = event => {
     const { name, value } = event.target
@@ -46,24 +69,6 @@ const Home = () => {
       [name]: value
     })
   }
-
-  const serviceID = '001'
-  const templateID = 'template_c2rko7j'
-  const userID = 'user_ls8ZeYTRPmkEIac4fZHVH'
-
-  const handlePress = (e) => {
-    e.preventDefault()
-   emailjs
-     .send(serviceID, templateID, state, userID)
-     .then(result => {
-       console.log(result.text)
-     })
-     .catch(err => {
-       console.log(err.text)
-     })
-     setState('')
-  }
-
   return (
     <Layout>
       <Container>
@@ -234,13 +239,14 @@ const Home = () => {
             Contact Me
           </Heading>
 
-          <form ref={form}>
+          <form>
             <FormControl onSubmit={handlePress}>
               <Stack spacing={3}>
                 {' '}
                 <Input
                   placeholder="Your name"
-                  name="name"
+                  name="from_name"
+                  value={state.from_name}
                   type="text"
                   onChange={handleChange}
                   size="sm"
@@ -258,6 +264,7 @@ const Home = () => {
                 <Textarea
                   placeholder="message"
                   name="message"
+                  value={state.message}
                   type="text"
                   onChange={handleChange}
                   variant="filled"
@@ -265,7 +272,8 @@ const Home = () => {
                 <FormLabel htmlFor="email">Email address</FormLabel>
                 <Input
                   placeholder="Your email"
-                  name="email"
+                  name="reply_to"
+                  value={state.reply_to}
                   type="text"
                   onChange={handleChange}
                   size="xs"
@@ -285,6 +293,23 @@ const Home = () => {
               Send
             </Button>
           </form>
+
+          <Modal isOpen={modalVisible} o>
+            <ModalOverlay />
+            <ModalContent>
+              <ModalHeader>Email sent successfully!</ModalHeader>
+              <ModalCloseButton />
+              <ModalFooter>
+                <Button
+                  colorScheme="teal"
+                  mr={3}
+                  onClick={() => setModalVisible(false)}
+                >
+                  Close
+                </Button>
+              </ModalFooter>
+            </ModalContent>
+          </Modal>
 
           <Box align="center" my={4}>
             <NextLink href="/posts">
