@@ -21,7 +21,7 @@ import {
   ModalContent,
   ModalHeader,
   ModalFooter,
-  ModalBody,
+  
   ModalCloseButton
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
