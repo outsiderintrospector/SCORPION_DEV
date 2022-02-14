@@ -59,10 +59,10 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/Portafolio/findSpot01.png" />
-      <WorkImage src="/images/Portafolio/findSpot02.png" />
-      <WorkImage src="/images/Portafolio/findSpot03.png" />
-      <WorkImage src="/images/Portafolio/findSpot04.png" />
+      <WorkImage src="/images/Portafolio/findSpot01.png" alt="findSpot" />
+      <WorkImage src="/images/Portafolio/findSpot02.png" alt="findSpot" />
+      <WorkImage src="/images/Portafolio/findSpot03.png" alt="findSpot" />
+      <WorkImage src="/images/Portafolio/findSpot04.png" alt="findSpot" />
     </Container>
   </Layout>
 )
