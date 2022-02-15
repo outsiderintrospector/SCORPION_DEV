@@ -109,11 +109,11 @@ const Work = () => (
       </Box> */}
       {/* IMAGENES */}
 
-      <WorkImage src="/images/Portafolio/foodly 01.png" alt="walknote" />
-      <WorkImage src="/images/Portafolio/foodly02.png" alt="walknote" />
-      <WorkImage src="/images/Portafolio/foodly03.png" alt="walknote" />
-      <WorkImage src="/images/Portafolio/foodly04.png" alt="walknote" />
-      <WorkImage src="/images/Portafolio/foodly05.png" alt="walknote" />
+      <WorkImage src="/images/Portafolio/foodly 01.png" alt="foodly" />
+      <WorkImage src="/images/Portafolio/foodly02.png" alt="foodly" />
+      <WorkImage src="/images/Portafolio/foodly03.png" alt="foodly" />
+      <WorkImage src="/images/Portafolio/foodly04.png" alt="foodly" />
+      <WorkImage src="/images/Portafolio/foodly05.png" alt="foodly" />
     </Container>
   </Layout>
 )
