@@ -113,12 +113,12 @@ const Home = () => {
             Work
           </Heading>
           <Paragraph>
-            Sebastián is a freelance and full-stack developer with a dedication
+            I'm a freelancer and full-stack developer with a dedication
             to building digital services/products that enhance art and design.
-            He has an eye for innovation from start to finish, from planning and
+            With an eye for innovation from start to finish, from planning and
             designing to solving real-life problems with code, all with a sharp
-            focus on leadership and a good sense of communication . When not
-            online, he loves to explore new ideas on music and art.
+            focus on leadership and a good sense of communication . When i'm not
+            online, I love to explore new ideas on music and art.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -176,7 +176,7 @@ const Home = () => {
           <List>
             <ListItem>
               <Link
-                href="https://github.com/outsiderintrospector"
+                href="https://github.com/jusebdev"
                 target="_blank"
               >
                 <Button
@@ -184,7 +184,7 @@ const Home = () => {
                   colorScheme="cyan"
                   leftIcon={<Icon as={IoLogoGithub} />}
                 >
-                  @outsiderintrospector
+                  @jusebdev
                 </Button>
               </Link>
             </ListItem>
