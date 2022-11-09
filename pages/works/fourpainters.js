@@ -18,40 +18,38 @@ const Work = () => (
   <Layout title="The four painters">
     <Container>
       <Title>
-        The four painters <Badge>2015</Badge>
+        MEDIUM <Badge>2022</Badge>
       </Title>
       <P>
-        A video work generated with deep learning, imitating famous four
-        painters: Van Gogh, Edvard Munch, Kiyoshi Yamashita, and Katsushika
-        Hokusai.
+       Clone responsive of Medium web app 
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>DeepLearning, neural-style, Caffe, NodeJS</span>
+          <span>Next js , Sanity Cms , Tailwind , TypeScript</span>
         </ListItem>
         <ListItem>
-          <Meta>Presentation</Meta>
-          <Link href="https://speakerdeck.com/craftzdog/the-fun-deep-learning">
-            The fun Deep Learning <ExternalLinkIcon mx="2px" />
+          <Meta>see online</Meta>
+          <Link href="https://medium-pink.vercel.app/">
+            LINK <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
-        <ListItem>
+        {/* <ListItem>
           <Meta>Blogpost</Meta>
           <Link href="https://archive.craftz.dog/blog.odoruinu.net/2015/12/23/the-four-painters-a-video-work-created-with-deep-learning/">
             The four painters: A Video Work Created with Deep Learning{' '}
             <ExternalLinkIcon mx="2px" />
           </Link>
-        </ListItem>
-        <ListItem>
+        </ListItem> */}
+        {/* <ListItem>
           <Meta>Blogpost</Meta>
           <Link href="https://archive.craftz.dog/blog.odoruinu.net/2015/12/19/created-movie-with-deep-learning/">
             Deep Learningを使って映像作品を作った
             <ExternalLinkIcon mx="2px" />
           </Link>
-        </ListItem>
+        </ListItem> */}
       </List>
-
+{/* 
       <Heading as="h4" fontSize={16} my={6}>
         <Center>Media coverage</Center>
       </Heading>
@@ -73,9 +71,9 @@ const Work = () => (
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
-      </UnorderedList>
+      </UnorderedList> */}
 
-      <Box>
+      {/* <Box>
         <iframe
           src="https://player.vimeo.com/video/146373709"
           width="100%"
@@ -83,14 +81,11 @@ const Work = () => (
           frameBorder="0"
           allowFullScreen
         />
-      </Box>
+      </Box> */}
 
-      <WorkImage
-        src="/images/works/the-four-painters_eyecatch.jpg"
-        alt="walknote"
-      />
-      <WorkImage src="/images/works/the-four-painters_01.jpg" alt="walknote" />
-      <WorkImage src="/images/works/the-four-painters_02.jpg" alt="walknote" />
+      
+      <WorkImage src="/images/Portafolio/medium/mediumPost.png" alt="medium" />
+      <WorkImage src="/images/Portafolio/medium/mediumHome.png" alt="mediumPost" />
     </Container>
   </Layout>
 )

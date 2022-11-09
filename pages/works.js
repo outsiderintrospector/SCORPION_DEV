@@ -7,9 +7,10 @@ import { WorkGridItem } from '../components/grid-item'
 import findSpot from '../public/images/Portafolio/FindSpot/findSpot.jpg'
 import foodly from '../public/images/Portafolio/Foodly/landing.png'
 
+import medium from '../public/images/Portafolio/medium/medium.png'
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 // import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-// import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
+
 // import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 
 // import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
@@ -41,16 +42,15 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        {/* <Section delay={0.1}>
+        <Section delay={0.1}>
           <WorkGridItem
             id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
+            title="Medium"
+            thumbnail={medium}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            A copy clone of Medium made on Typescript and Sanity Cms with some surprises for devs 
           </WorkGridItem>
-        </Section> */}
+        </Section>
         {/* <Section delay={0.1}>
           <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
             An app that suggests ramen(noodle) shops based on a given photo of

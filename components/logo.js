@@ -41,7 +41,7 @@ const Logo = () => {
             fontWeight="light"
             ml={3}
           >
-            SCORPION DEV
+            SEBASTIÁN CARVAJAL
           </Text>
         </LogoBox>
       </a>
