@@ -18,7 +18,7 @@ const Work = () => (
   <Layout title="Menkiki (麺利き)">
     <Container>
       <Title>
-        Menkiki (麺利き) <Badge>2015</Badge>
+        CriptoDevs<Badge>2022</Badge>
       </Title>
       <P>
         Menkiki suggests ramen(Chinese noodle) shops based on a photo of ramen
@@ -40,7 +40,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>iOS</span>
+          <span>WEB</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
