@@ -23,7 +23,7 @@ const Work = () => (
       <P>
         This is an amazing BlockChain WhaitList!
       </P>
-     
+
       <UnorderedList my={4}>
         <ListItem>Connect your wallet</ListItem>
         <ListItem>Request a ticket</ListItem>
@@ -39,7 +39,7 @@ const Work = () => (
           <Meta>Stack</Meta>
           <span>JavaScript,Solidity, NextJs, HardHat , EthersJs , CSS </span>
         </ListItem>
-      
+
         <ListItem>
           <Meta>Source</Meta>
           <Link href="https://github.com/jusebdev/whitelistDapp">
