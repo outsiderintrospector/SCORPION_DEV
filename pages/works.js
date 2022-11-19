@@ -47,6 +47,11 @@ const Works = () => (
             A web3 page with the posibility of access to a certain amount of tickets for releasing features, first implementation of a smart contract 
           </WorkGridItem>
         </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="ByYou" thumbnail={cryptoDevs} title="WhiteList-Dapp">
+            A web3 page with the posibility of access to a certain amount of tickets for releasing features, first implementation of a smart contract 
+          </WorkGridItem>
+        </Section>
       </SimpleGrid>
 
       {/* <Section delay={0.2}>

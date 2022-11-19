@@ -28,20 +28,20 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const ICON = `/images/icon.png`
+  const ICON = `/images/logo.png`
 
   return (
     <Link href="/">
       <a>
         <LogoBox>
-          <Image src={ICON} width={100} height={100} alt="logo" />
+          <Image src={ICON} width={80} height={80} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-            fontFamily='Bebas Neue", sans-serif'
+            fontFamily='Arimo", sans-serif'
             fontWeight="light"
             ml={3}
           >
-            SEBASTIÁN CARVAJAL
+            
           </Text>
         </LogoBox>
       </a>

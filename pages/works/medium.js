@@ -21,7 +21,7 @@ const Work = () => (
         MEDIUM <Badge>2022</Badge>
       </Title>
       <P>
-       Clone responsive of Medium web app 
+       Medium web app with posts controled on Sanity 
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -34,6 +34,7 @@ const Work = () => (
             LINK <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
+
         {/* <ListItem>
           <Meta>Blogpost</Meta>
           <Link href="https://archive.craftz.dog/blog.odoruinu.net/2015/12/23/the-four-painters-a-video-work-created-with-deep-learning/">
@@ -48,8 +49,15 @@ const Work = () => (
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem> */}
+     
+        <ListItem>
+          <Meta>Source</Meta>
+          <Link href="https://github.com/jusebdev/medium">
+            github.com/jusebdev/medium <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
       </List>
-{/* 
+      {/* 
       <Heading as="h4" fontSize={16} my={6}>
         <Center>Media coverage</Center>
       </Heading>

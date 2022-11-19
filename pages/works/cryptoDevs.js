@@ -21,20 +21,13 @@ const Work = () => (
         CriptoDevs<Badge>2022</Badge>
       </Title>
       <P>
-        Menkiki suggests ramen(Chinese noodle) shops based on a photo of ramen
-        you want to eat. Why? Because you don&apos;t need to input Japanese
-        keywords to find restaurants, but just specify a ramen photo then it
-        will suggest great shops for you. It supports 900+ famous ramen shops in
-        Japan!
+        This is an amazing BlockChain WhaitList!
       </P>
-      <P>
-        So, you can check a shop info as soon as you found a promising ramen
-        shop in a food magazine. Let&apos;s go out and have a delicious ramen!
-      </P>
+     
       <UnorderedList my={4}>
-        <ListItem>Ramen shop recommendation based on photo</ListItem>
-        <ListItem>Show shops near your current location</ListItem>
-        <ListItem>Open in Tabelog/Foursquare</ListItem>
+        <ListItem>Connect your wallet</ListItem>
+        <ListItem>Request a ticket</ListItem>
+        <ListItem>Receive a ticket in your account</ListItem>
       </UnorderedList>
 
       <List ml={4} my={4}>
@@ -44,30 +37,25 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Objective-C++, Swift, BLVC CaffeNet Model</span>
+          <span>JavaScript,Solidity, NextJs, HardHat , EthersJs , CSS </span>
         </ListItem>
-        <ListItem>
-          <Meta>Presentation</Meta>
-          <Link href="https://speakerdeck.com/craftzdog/the-fun-deep-learning">
-            The fun Deep Learning <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Meta>Presentation</Meta>
-          <Link href="https://speakerdeck.com/craftzdog/caffedeoshou-qing-ben-ge-deipuraninguiosapuri">
-            Caffeでお手軽本格ディープラーニングアプリ @potatotips{' '}
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
+      
         <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://github.com/craftzdog/caffe-ios-sample">
-            github.com/craftzdog/caffe-ios-sample <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/jusebdev/whitelistDapp">
+            github.com/jusebdev/whitelistDapp <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+
+        <ListItem>
+          <Meta>see online</Meta>
+          <Link href="https://whitelist-dapp-five-sepia.vercel.app/">
+            LINK <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
 
-      <Box align="center" my={6}>
+      {/* <Box align="center" my={6}>
         <Link
           className="link-appstore"
           href="https://itunes.apple.com/app/id1035645520?mt=8"
@@ -80,12 +68,12 @@ const Work = () => (
             alt="Download on App Store"
           />
         </Link>
-      </Box>
+      </Box> */}
 
-      <WorkImage src="/images/works/menkiki_eyecatch.png" alt="menkiki" />
+      <WorkImage src="/images/Portafolio/cryptoDevs/2" alt="crypto" />
       <SimpleGrid columns={2} gap={2}>
         <WorkImage src="/images/works/menkiki_01.png" alt="menkiki" />
-        <WorkImage src="/images/works/menkiki_02.png" alt="menkiki" />
+        <WorkImage src="/images/works/menkiki_02.png" alt="crypto" />
       </SimpleGrid>
     </Container>
   </Layout>
