@@ -2,12 +2,6 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-
-import {
-  TwitterTimelineEmbed,
-  
-} from 'react-twitter-embed'
-
 import englishForDevs from '../public/images/Portafolio/certifications/diploma-ingles-avanzado-developers_8002475_1.jpg'
 import solidity from '../public/images/Portafolio/certifications/diploma-solidity_8002487_1.jpg'
 import web3Basics from '../public/images/Portafolio/certifications/diploma-fundamentos-web3_8002465_1.jpg'
