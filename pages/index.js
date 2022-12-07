@@ -114,12 +114,12 @@ const Home = () => {
             Work
           </Heading>
           <Paragraph>
-           I'm a freelancer and full-stack developer with a dedication
+           '&lsquo;I'm a freelancer and full-stack developer with a dedication
             to building digital services/products that enhance art and design.
             With an eye for innovation from start to finish, from planning and
             designing to solving real-life problems with code, all with a sharp
             focus on leadership and a good sense of communication . When i'm not
-            online, I love to explore new ideas on music and art.
+            online, I love to explore new ideas on music and art.'
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
