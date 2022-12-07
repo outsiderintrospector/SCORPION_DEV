@@ -47,11 +47,11 @@ const Works = () => (
             A web3 page with the posibility of access to a certain amount of tickets for releasing features, first implementation of a smart contract 
           </WorkGridItem>
         </Section>
-        <Section delay={0.1}>
+        {/* <Section delay={0.1}>
           <WorkGridItem id="ByYou" thumbnail={byYou} title="WhiteList-Dapp">
            Coffee product page , went from mockup to integration with strapi endpoints , shopping cart and styles 
           </WorkGridItem>
-        </Section>
+        </Section> */}
       </SimpleGrid>
 
       {/* <Section delay={0.2}>

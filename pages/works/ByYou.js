@@ -15,13 +15,13 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="CriptoDevs">
+  <Layout title="ByYou">
     <Container>
       <Title>
-        CriptoDevs<Badge>2022</Badge>
+        ByYou<Badge>JULY 2022</Badge>
       </Title>
       <P>
-        This is an amazing BlockChain WhaitList!
+       The real coffee shop online
       </P>
 
       <UnorderedList my={4}>
@@ -37,7 +37,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>JavaScript,Solidity, NextJs, HardHat , EthersJs , CSS </span>
+          <span>TypeScript,React,GraphQl, Strapi , Nodejs </span>
         </ListItem>
 
         <ListItem>
@@ -47,12 +47,7 @@ const Work = () => (
           </Link>
         </ListItem>
 
-        <ListItem>
-          <Meta>see online</Meta>
-          <Link href="https://whitelist-dapp-five-sepia.vercel.app/">
-            LINK <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
+        
       </List>
 
       {/* <Box align="center" my={6}>
@@ -70,10 +65,11 @@ const Work = () => (
         </Link>
       </Box> */}
 
-      <WorkImage src="/images/Portafolio/cryptoDevs/2.png" alt="crypto" />
-
-      <WorkImage src="/images/Portafolio/cryptoDevs/1.png" alt="crypto" />
-    
+      <WorkImage src="/images/Portafolio/cryptoDevs/2" alt="crypto" />
+      <SimpleGrid columns={2} gap={2}>
+        <WorkImage src="/images/works/menkiki_01.png" alt="menkiki" />
+        <WorkImage src="/images/works/menkiki_02.png" alt="crypto" />
+      </SimpleGrid>
     </Container>
   </Layout>
 )

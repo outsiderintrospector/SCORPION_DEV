@@ -80,7 +80,7 @@ const Home = () => {
           textAlign="center"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         >
-          Hello,Im a full-stack developer based in Argentina!
+          Hello,Im a full-stack web3 developer and PR communication specialist 
         </Box>
 
         <Box display={{ md: 'flex' }}>
