@@ -7,8 +7,7 @@ import { WorkGridItem } from '../components/grid-item'
 import findSpot from '../public/images/Portafolio/FindSpot/findSpot.jpg'
 import foodly from '../public/images/Portafolio/Foodly/landing.png'
 import medium from '../public/images/Portafolio/medium/medium.png'
-import cryptoDevs from '../public/images/Portafolio/cryptoDevs/Screenshot 2022-11-08 at 16.49.17.png'
-
+import cryptoDevs from '../public/images/Portafolio/cryptoDevs/1.png'
 
 const Works = () => (
   <Layout title="Works">
