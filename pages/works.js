@@ -8,7 +8,6 @@ import findSpot from '../public/images/Portafolio/FindSpot/findSpot.jpg'
 import foodly from '../public/images/Portafolio/Foodly/landing.png'
 import medium from '../public/images/Portafolio/medium/medium.png'
 import cryptoDevs from '../public/images/Portafolio/cryptoDevs/2.png'
-import byYou from '../public/images/Portafolio/ByYouApp/home.png'
 
 const Works = () => (
   <Layout title="Works">
