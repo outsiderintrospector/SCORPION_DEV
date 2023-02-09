@@ -1,4 +1,4 @@
-import React from 'react'
+9import React from 'react'
 import NextLink from 'next/link'
 import {
   Link,
@@ -314,7 +314,7 @@ const Home = () => {
           <Box align="center" my={4}>
             <NextLink href="/posts">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
-                Popular posts
+                Certifications
               </Button>
             </NextLink>
           </Box>
