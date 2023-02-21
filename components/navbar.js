@@ -78,7 +78,7 @@ const Navbar = props => {
             Certifications 
           </LinkItem>
           <LinkItem href="http://stardust1031.s3-website-us-east-1.amazonaws.com" target="_blank">
-            Resume 
+            CV 
           </LinkItem>
 
           
@@ -118,7 +118,7 @@ const Navbar = props => {
                   <MenuItem as={Link}>certifications</MenuItem>
                 </NextLink>
                 <NextLink href="http://stardust1031.s3-website-us-east-1.amazonaws.com" target="_blank" passHref>
-                  <MenuItem as={Link}>Resume</MenuItem>
+                  <MenuItem as={Link}>CV</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
