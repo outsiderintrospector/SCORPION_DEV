@@ -9,6 +9,7 @@ import foodly from '../public/images/Portafolio/Foodly/landing.png'
 import medium from '../public/images/Portafolio/medium/medium.png'
 import cryptoDevs from '../public/images/Portafolio/cryptoDevs/2.png'
 import byYou from '../public/images/Portafolio/ByYouApp/home.png'
+import NFT from '../public/images/Portafolio/Nft-collection/home.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -30,6 +31,12 @@ const Works = () => (
         <Section delay={0.1}>
           <WorkGridItem id="cryptoDevs" thumbnail={cryptoDevs} title="WhiteList-Dapp">
             A web3 page with the posibility of access to a certain amount of tickets for releasing features, first implementation of a smart contract
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="Nft-collection" thumbnail={NFT} title="Nft-collection">
+            There should only exist 20 Crypto Dev NFT's and each one of them should be unique.
+            User's should be able to mint only 1 NFT with one transaction.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>

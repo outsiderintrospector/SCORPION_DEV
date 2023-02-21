@@ -28,7 +28,7 @@ const Work = () => (
                 </ListItem>
                 <ListItem>
                     <Meta>Stack</Meta>
-                    <span>Typescript ,Graph Ql, Postman , React, Jest , CSS  </span>
+                    <span>Typescript ,Graph Ql, Postman , React, Jest , CSS , STRAPI  </span>
                 </ListItem>
 
               
