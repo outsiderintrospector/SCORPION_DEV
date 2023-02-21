@@ -38,6 +38,11 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
 
 const Navbar = props => {
   const { path } = props
+  
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+  }
 
   return (
     <Box
@@ -78,6 +83,11 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Certifications 
           </LinkItem>
+          <LinkItem href="http://stardust1031.s3-website-us-east-1.amazonaws.com" path={"_blank"}>
+            Resume 
+          </LinkItem>
+
+          
           {/* <LinkItem
             _target="_blank"
             href=""
@@ -113,9 +123,12 @@ const Navbar = props => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>certifications</MenuItem>
                 </NextLink>
+                <NextLink href="http://stardust1031.s3-website-us-east-1.amazonaws.com" passHref>
+                  <MenuItem as={Link}>Resume</MenuItem>
+                </NextLink>
                 <MenuItem
                   as={Link}
-                  href=""
+                  href="https://github.com/tech-tinker/SCORPION_DEV"
                 >
                   View Source
                 </MenuItem>
