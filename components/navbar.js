@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-// import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -38,12 +38,6 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
 
 const Navbar = props => {
   const { path } = props
-  
-  const openInNewTab = (url) => {
-    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
-    if (newWindow) newWindow.opener = null
-  }
-
   return (
     <Box
       position="fixed"
@@ -83,14 +77,14 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Certifications 
           </LinkItem>
-          <LinkItem href="http://stardust1031.s3-website-us-east-1.amazonaws.com" path={"_blank"}>
+          <LinkItem href="http://stardust1031.s3-website-us-east-1.amazonaws.com" target="_blank">
             Resume 
           </LinkItem>
 
           
-          {/* <LinkItem
-            _target="_blank"
-            href=""
+          <LinkItem
+            target="_blank"
+            href="https://github.com/tech-tinker"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -98,8 +92,8 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
-          </LinkItem> */}
+            Profile
+          </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">
@@ -123,7 +117,7 @@ const Navbar = props => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>certifications</MenuItem>
                 </NextLink>
-                <NextLink href="http://stardust1031.s3-website-us-east-1.amazonaws.com" passHref>
+                <NextLink href="http://stardust1031.s3-website-us-east-1.amazonaws.com" target="_blank" passHref>
                   <MenuItem as={Link}>Resume</MenuItem>
                 </NextLink>
                 <MenuItem

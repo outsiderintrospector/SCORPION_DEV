@@ -30,7 +30,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 // import { GridItem } from '../components/grid-item'
-import { IoLogoLinkedin, IoLogoGithub, IoArrowForward } from 'react-icons/io5'
+import { IoLogoLinkedin, IoLogoGithub, IoArrowForward, IoLogoTwitter } from 'react-icons/io5'
 import { useState } from 'react'
 import { send } from '@emailjs/browser'
 
@@ -79,7 +79,7 @@ const Home = () => {
           textAlign="center"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         >
-          Hello,Im a full-stack web3 developer and PR communication specialist 
+          Hello,Im a full-stack web3 developer and PR communications specialist 
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -158,13 +158,6 @@ const Home = () => {
           </Heading>
           <Paragraph>
             Art, Music,{' '}
-            {/* <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link> */}
             ,Philosophy, Disruptive ideas..
           </Paragraph>
         </Section>
@@ -176,7 +169,7 @@ const Home = () => {
           <List>
             <ListItem>
               <Link
-                href="https://github.com/jusebdev"
+                href="https://github.com/tech-tinker"
                 target="_blank"
               >
                 <Button
@@ -184,21 +177,21 @@ const Home = () => {
                   colorScheme="cyan"
                   leftIcon={<Icon as={IoLogoGithub} />}
                 >
-                  @jusebdev
+                  @tech-tinker
                 </Button>
               </Link>
             </ListItem>
-            {/* <ListItem>
-              <Link href="https://twitter.com/scorpiondev_" target="_blank">
+            <ListItem>
+              <Link href="https://twitter.com/codelandr" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="cyan"
                   leftIcon={<Icon as={IoLogoTwitter} />}
                 >
-                  @scorpiondev_
+                  @codelandr
                 </Button>
               </Link>
-            </ListItem> */}
+            </ListItem>
 
             <ListItem>
               <Link
