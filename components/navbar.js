@@ -115,7 +115,7 @@ const Navbar = props => {
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>certifications</MenuItem>
+                  <MenuItem as={Link}>Certifications</MenuItem>
                 </NextLink>
                 <NextLink href="http://stardust1031.s3-website-us-east-1.amazonaws.com" target="_blank" passHref>
                   <MenuItem as={Link}>CV</MenuItem>

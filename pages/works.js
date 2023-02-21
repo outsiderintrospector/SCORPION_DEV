@@ -18,6 +18,25 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="medium"
+            title="Medium"
+            thumbnail={medium}
+          >
+            A Medium space clone made on Typescript and Sanity Cms with some surprises on content for devs
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="cryptoDevs" thumbnail={cryptoDevs} title="WhiteList-Dapp">
+            A web3 page with the posibility of access to a certain amount of tickets for releasing features, first implementation of a smart contract
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="ByYou" thumbnail={byYou} title="E-Commerce">
+            Coffee product page , went from mockup to integration with strapi endpoints , shopping cart and styles
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem id="findSpot" title="FindSpot" thumbnail={findSpot}>
            An app developed in React Native/Redux  with the purpose to connect unique people with unique events globally
@@ -33,25 +52,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="medium"
-            title="Medium"
-            thumbnail={medium}
-          >
-            A Medium space clone made on Typescript and Sanity Cms with some surprises on content for devs 
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="cryptoDevs" thumbnail={cryptoDevs} title="WhiteList-Dapp">
-            A web3 page with the posibility of access to a certain amount of tickets for releasing features, first implementation of a smart contract 
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="ByYou" thumbnail={byYou} title="E-Commerce">
-           Coffee product page , went from mockup to integration with strapi endpoints , shopping cart and styles 
-          </WorkGridItem>
-        </Section>
+       
         {/* <Section delay={0.1}>
           <WorkGridItem id="ByYou" thumbnail={byYou} title="WhiteList-Dapp">
            Coffee product page , went from mockup to integration with strapi endpoints , shopping cart and styles 
