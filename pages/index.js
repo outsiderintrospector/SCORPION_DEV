@@ -21,7 +21,7 @@ import {
   ModalContent,
   ModalHeader,
   ModalFooter,
-  
+  UnorderedList,
   ModalCloseButton
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -79,7 +79,7 @@ const Home = () => {
           textAlign="center"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         >
-          Hello,Im a full-stack web3 developer and PR communications specialist 
+          Unlocking the Future: Your Web3, AI, and Mobile Solutions Architect
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -110,16 +110,17 @@ const Home = () => {
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Work
+            Bio
           </Heading>
-          <Paragraph>
-           I&apos;m a freelancer and full-stack developer with a dedication
-            to building digital services/products that enhance art and design.
-            With an eye for innovation from start to finish, from planning and
-            designing to solving real-life problems with code, all with a sharp
-            focus on leadership and a good sense of communication . When i'm not
-            online, I love to explore new ideas on music and art.
-          </Paragraph>
+
+          <UnorderedList>
+            <ListItem>Experienced freelancer & full-stack developer</ListItem>
+            <ListItem>Dedicated to enhancing art and design through digital solutions</ListItem>
+            <ListItem>Innovative problem solver from planning to coding</ListItem>
+            <ListItem>Strong leadership and communication skills</ListItem>
+            <ListItem>Passion for exploring new ideas in music , art and tech🔮</ListItem>
+          </UnorderedList>
+          
           <Box align="center" my={4}>
             <NextLink href="/works">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
@@ -131,7 +132,7 @@ const Home = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+            Education
           </Heading>
           <BioSection>
             <BioYear>1995</BioYear>
