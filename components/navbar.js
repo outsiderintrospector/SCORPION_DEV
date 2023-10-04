@@ -77,9 +77,9 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Certifications 
           </LinkItem>
-          <LinkItem href="http://stardust1031.s3-website-us-east-1.amazonaws.com" target="_blank">
+          {/* <LinkItem href="http://stardust1031.s3-website-us-east-1.amazonaws.com" target="_blank">
             CV 
-          </LinkItem>
+          </LinkItem> */}
 
           
           <LinkItem
@@ -96,7 +96,7 @@ const Navbar = props => {
           </LinkItem>
         </Stack>
 
-        <Box flex={1} align="right">
+        <Box flex={1} mt={4} align="right">
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
