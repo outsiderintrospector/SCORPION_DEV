@@ -44,20 +44,20 @@ const Navbar = props => {
       as="nav"
       w="100%"
       bg={useColorModeValue('#ffffff40', '#20202380')}
-      css={{ backdropFilter: 'blur(10px)' }}
+      css={{ backdropFilter: 'blur(02px)' }}
       zIndex={1}
       {...props}
     >
       <Container
         display="flex"
-        p={2}
+        p={1}
         maxW="container.md"
         wrap="wrap"
         align="center"
         justify="space-between"
         
       >
-        <Flex align="center" mr={5}>
+        <Flex align="center" mr={3}>
           <Heading as="h1" size="lg" letterSpacing={'tighter'}>
             <Logo />
           </Heading>
@@ -96,7 +96,7 @@ const Navbar = props => {
           </LinkItem>
         </Stack>
 
-        <Box flex={1} mt={4} align="right">
+        <Box flex={1} mt={2} align="right">
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>

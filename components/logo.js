@@ -34,7 +34,7 @@ const Logo = () => {
     <Link href="/">
       <a>
         <LogoBox>
-          <Image src={ICON} width={80} height={80} alt="logo" />
+          <Image src={ICON} width={70} height={70} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='Arimo", sans-serif'
