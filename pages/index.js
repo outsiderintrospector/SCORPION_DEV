@@ -123,7 +123,9 @@ const Home = () => {
           
           <Box align="center" my={4}>
             <NextLink href="/works">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
+              <Button rightIcon={<ChevronRightIcon />} 
+                variant='outline'
+              colorScheme="purple">
                 My portfolio
               </Button>
             </NextLink>
@@ -170,15 +172,15 @@ const Home = () => {
           <List>
             <ListItem>
               <Link
-                href="https://github.com/tech-tinker"
+                href="https://github.com/humancodex"
                 target="_blank"
               >
                 <Button
                   variant="ghost"
-                  colorScheme="cyan"
+                  colorScheme="purple"
                   leftIcon={<Icon as={IoLogoGithub} />}
                 >
-                  @tech-tinker
+                  @humancodex
                 </Button>
               </Link>
             </ListItem>
@@ -186,7 +188,7 @@ const Home = () => {
               <Link href="https://twitter.com/codelandr" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="cyan"
+                  colorScheme="purple"
                   leftIcon={<Icon as={IoLogoTwitter} />}
                 >
                   @codelandr
@@ -201,7 +203,7 @@ const Home = () => {
               >
                 <Button
                   variant="ghost"
-                  colorScheme="cyan"
+                  colorScheme="purple"
                   leftIcon={<Icon as={IoLogoLinkedin} />}
                 >
                   /scorpiondev
@@ -307,7 +309,9 @@ const Home = () => {
 
           <Box align="center" my={4}>
             <NextLink href="/posts">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
+              <Button rightIcon={<ChevronRightIcon />} 
+              variant='outline'
+              colorScheme="purple">
                 Certifications
               </Button>
             </NextLink>
