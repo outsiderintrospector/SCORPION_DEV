@@ -109,7 +109,7 @@ const Home = () => {
         </Box>
 
         <Section delay={0.1}>
-          <Heading as="h3" variant="section-title">
+          <Heading as="h3" fontSize={25} variant="section-title">
             Bio
           </Heading>
 
@@ -133,7 +133,7 @@ const Home = () => {
         </Section>
 
         <Section delay={0.2}>
-          <Heading as="h3" variant="section-title">
+          <Heading as="h3" fontSize={25}  variant="section-title">
             Education
           </Heading>
           <BioSection>
@@ -166,7 +166,7 @@ const Home = () => {
         </Section>
 
         <Section delay={0.3}>
-          <Heading as="h3" variant="section-title">
+          <Heading as="h3" fontSize={25} variant="section-title">
             On the web
           </Heading>
           <List>
@@ -231,7 +231,7 @@ const Home = () => {
           {/* contact */}
           {/* CONTACT FORM  */}
 
-          <Heading as="h2" variant="section-title">
+          <Heading as="h2" fontSize={25} variant="section-title">
             Contact Me
           </Heading>
 
