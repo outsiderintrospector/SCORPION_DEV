@@ -191,7 +191,7 @@ const Home = () => {
                   colorScheme="purple"
                   leftIcon={<Icon as={IoLogoTwitter} />}
                 >
-                  @humancodex
+                  @human_codex
                 </Button>
               </Link>
             </ListItem>
