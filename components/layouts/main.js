@@ -21,14 +21,14 @@ const Main = ({ children, router }) => {
    
 
         {/* aqui abajo va el favicon */}
-        <link rel="shortcut icon" href="/icon.png"  />
+        <link rel="shortcut icon" href="/favicon.ico"  />
      
         <meta name="twitter:site" content="@human_codex" />
         <meta name="twitter:creator" content="@human_codex" />
         <meta name="twitter:image" content="/icon.png" />
-        <meta property="og:site_name" content="humancodex" />
+        <meta property="og:site_name" content="human_codex" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/icon.png" />
+        <meta property="og:image" content="/favicon.ico" />
         <title>CREATOR AND COLLECTOR </title>
       </Head>
 
