@@ -161,7 +161,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2023 to present</BioYear>
-            Creating a Vortex Lab - Digital Agency 
+            Creating a Vortex Lab Digital Agency 
           </BioSection>
         </Section>
 
