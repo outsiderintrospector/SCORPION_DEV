@@ -158,17 +158,17 @@ const Home = () => {
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            Reach me for  :
+          Reach me for
           </Heading>
           <Paragraph>
-            Art, Music,{' '}
+          Art, Music,{' '}
             ,Comunication, Disruptive ideas on tech ..
           </Paragraph>
         </Section>
 
         <Section delay={0.3}>
           <Heading as="h3" fontSize={25} variant="section-title">
-            On the web
+            Connect 
           </Heading>
           <List>
             <ListItem>
