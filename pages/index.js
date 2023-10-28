@@ -181,7 +181,7 @@ const Home = () => {
                   colorScheme="purple"
                   leftIcon={<Icon as={RiInstagramFill} />}
                 >
-                  /human_codex
+                  /humancodex
                 </Button>
               </Link>
             </ListItem>
