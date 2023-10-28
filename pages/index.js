@@ -156,11 +156,11 @@ const Home = () => {
             Completed Software Engineer - FullStack PERN on HENRY
           </BioSection>
           <BioSection>
-            <BioYear>2022 to 2023</BioYear> <br />
+            <BioYear>2022</BioYear> <br />
             Web3 degree and entrepeneurship with AI on Platzi
           </BioSection>
           <BioSection>
-            <BioYear>2023 to present</BioYear> <br />
+            <BioYear>2022 - NOW</BioYear> <br />
             Creating a Vortex Lab Digital Agency
           </BioSection>
         </Section>
