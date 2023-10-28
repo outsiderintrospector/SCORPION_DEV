@@ -157,7 +157,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022 to 2023</BioYear>
-            Web3 degree and entrepeneurship with AI
+            Web3 degree and entrepeneurship with AI on Platzi 
           </BioSection>
           <BioSection>
             <BioYear>2023 to present</BioYear>
