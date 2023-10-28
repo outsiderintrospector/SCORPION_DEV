@@ -15,9 +15,9 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Homepage" />
-        <meta name="author" content="Juan Sebastian Carvajal" />
-        <meta name="author" content="ScorpionDev" />
+        <meta name="description" content="Digital Craftzman" />
+        <meta name="author" content="John Dagger" />
+        <meta name="author" content="Outsider Introspector" />
    
 
         {/* aqui abajo va el favicon */}
