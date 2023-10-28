@@ -30,7 +30,8 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 // import { GridItem } from '../components/grid-item'
-import { IoLogoLinkedin, IoLogoGithub, IoArrowForward, IoLogoTwitter } from 'react-icons/io5'
+import { IoLogoLinkedin, IoLogoGithub, IoArrowForward } from 'react-icons/io5'
+import { RiTwitterXFill, RiInstagramFill } from 'react-icons/ri'
 import { useState } from 'react'
 import { send } from '@emailjs/browser'
 
@@ -85,9 +86,9 @@ const Home = () => {
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              Sebastián Carvajal Báez
+              John Dagger 
             </Heading>
-            <p>Digital Craftzman (Artist / Developer / PR )</p>
+            <p>(Artist / Developer / PR )</p>
           </Box>
           <Box
             flexShrink={0}
@@ -126,7 +127,7 @@ const Home = () => {
               <Button rightIcon={<ChevronRightIcon />} 
                 variant='outline'
               colorScheme="purple">
-                My portfolio
+                Portfolio
               </Button>
             </NextLink>
           </Box>
@@ -142,26 +143,26 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019-2023</BioYear>
-            Bachelors Degree on Public Relations and Science Communications at
-            UADE (Universidad Argentina de la Empresa) in progress
+            Bachelors degree on public relations at
+            UADE (Universidad Argentina de la Empresa)
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Completed the FullStack Dev Program on HENRY Bootcamp
+            Completed the fullStack fev PERN program on HENRY
           </BioSection>
           <BioSection>
             <BioYear>2022 to present</BioYear>
-            Web3 degree and projects as a freelancer
+            Web3 degree and entrepeneurship with AI
           </BioSection>
         </Section>
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            I ♥
+            Reach me for  :
           </Heading>
           <Paragraph>
             Art, Music,{' '}
-            ,Philosophy, Disruptive ideas..
+            ,Comunication, Disruptive ideas on tech ..
           </Paragraph>
         </Section>
 
@@ -170,6 +171,20 @@ const Home = () => {
             On the web
           </Heading>
           <List>
+            <ListItem>
+              <Link
+                href="https://www.instagram.com/humancodex"
+                target="_blank"
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="purple"
+                  leftIcon={<Icon as={RiInstagramFill} />}
+                >
+                  /human_codex
+                </Button>
+              </Link>
+            </ListItem>
             <ListItem>
               <Link
                 href="https://github.com/humancodex"
@@ -185,11 +200,11 @@ const Home = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://twitter.com/humancodex" target="_blank">
+              <Link href="https://twitter.com/human_codex" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="purple"
-                  leftIcon={<Icon as={IoLogoTwitter} />}
+                  leftIcon={<Icon as={RiTwitterXFill} />}
                 >
                   @human_codex
                 </Button>
@@ -210,6 +225,7 @@ const Home = () => {
                 </Button>
               </Link>
             </ListItem>
+         
           </List>
 
           {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>

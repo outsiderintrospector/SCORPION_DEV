@@ -1,17 +1,25 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Text, useColorModeValue } from '@chakra-ui/react'
+import { Text, useColorModeValue , Box} from '@chakra-ui/react'
 import styled from '@emotion/styled'
+import { MdHomeFilled } from 'react-icons/md'
+
+
+
+
+
+  
 
 const LogoBox = styled.span`
   font-weight: bold;
-  font-size: 25px;
+  font-size: 40px;
   margin-top: 15px;
   display: inline-flex;
   align-items: center;
-  height: 30px;
+  height: 40px;
   line-height: 19px;
   padding: 15px;
+
 
   img {
     transition: 200ms ease;
@@ -34,16 +42,19 @@ const Logo = () => {
     <Link href="/">
       <a>
         <LogoBox>
-          <Image src={ICON} width={70} height={70} alt="logo" />
+          <Image src={ICON} width={60} height={60} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='Arimo", sans-serif'
             fontWeight="light"
-            ml={3}
+            ml={2}
+          
           >
-            
+            DAGGER
           </Text>
+          
         </LogoBox>
+     
       </a>
     </Link>
   )

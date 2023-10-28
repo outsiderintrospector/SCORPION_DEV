@@ -18,6 +18,7 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoGithub } from 'react-icons/io5'
 
+
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
   const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
@@ -58,8 +59,9 @@ const Navbar = props => {
         
       >
         <Flex align="center" mr={3}>
-          <Heading as="h1" size="lg" letterSpacing={'tighter'}>
+          <Heading as="h1" size="lg" letterSpacing={'4'}>
             <Logo />
+            
           </Heading>
         </Flex>
 
@@ -84,7 +86,7 @@ const Navbar = props => {
           
           <LinkItem
             target="_blank"
-            href="https://github.com/tech-tinker"
+            href="https://github.com/humancodex"
             path={path}
             display="inline-flex"
             alignItems="center"
