@@ -5,7 +5,7 @@ import { loadGLTFModel } from '../lib/model'
 import { DogSpinner, DogContainer } from './voxel-dog-loader'
 
 function easeOutCirc(x) {
-  return Math.sqrt(1 - Math.pow(x - 1, 1))
+  return Math.sqrt(1 - Math.pow(x - 1, 3))
 }
 
 const VoxelDog = () => {
@@ -91,7 +91,7 @@ const VoxelDog = () => {
 
         if (frame <= 100) {
           const p = initialCameraPosition
-          const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 6
+          const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 10
 
           camera.position.y = 10
           camera.position.x =
