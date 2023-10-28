@@ -142,13 +142,18 @@ const Home = () => {
             Born in Bogotá, Colombia.
           </BioSection>
           <BioSection>
+            <BioYear>2014-2019</BioYear>
+            Bachelors degree on Music Composition and Scripting at
+            UNLP (Universidad Nacional de La Plata)
+          </BioSection>
+          <BioSection>
             <BioYear>2019-2023</BioYear>
-            Bachelors degree on public relations at
+            Bachelors degree on Public Relations and Institutional Communication at
             UADE (Universidad Argentina de la Empresa)
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Completed the fullStack fev PERN program on HENRY
+            Completed Software Engineer - FullStack PERN on HENRY
           </BioSection>
           <BioSection>
             <BioYear>2022 to 2023</BioYear>
