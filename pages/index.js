@@ -151,8 +151,12 @@ const Home = () => {
             Completed the fullStack fev PERN program on HENRY
           </BioSection>
           <BioSection>
-            <BioYear>2022 to present</BioYear>
+            <BioYear>2022 to 2023</BioYear>
             Web3 degree and entrepeneurship with AI
+          </BioSection>
+          <BioSection>
+            <BioYear>2023 to present</BioYear>
+            Creating a Vortex Lab - Digital Agency 
           </BioSection>
         </Section>
 
