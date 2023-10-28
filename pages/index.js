@@ -86,7 +86,7 @@ const Home = () => {
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              John Dagger 
+              John Dagger
             </Heading>
             <p>(Artist / Developer / PR )</p>
           </Box>
@@ -121,12 +121,12 @@ const Home = () => {
             <ListItem>Strong leadership and communication skills</ListItem>
             <ListItem>Passion for exploring new ideas in music , art and tech🔮</ListItem>
           </UnorderedList>
-          
+
           <Box align="center" my={4}>
             <NextLink href="/works">
-              <Button rightIcon={<ChevronRightIcon />} 
+              <Button rightIcon={<ChevronRightIcon />}
                 variant='outline'
-              colorScheme="purple">
+                colorScheme="purple">
                 Portfolio
               </Button>
             </NextLink>
@@ -134,50 +134,50 @@ const Home = () => {
         </Section>
 
         <Section delay={0.2}>
-          <Heading as="h3" fontSize={25}  variant="section-title">
+          <Heading as="h3" fontSize={25} variant="section-title">
             Education
           </Heading>
           <BioSection>
-            <BioYear>1995</BioYear>
+            <BioYear>1995</BioYear> <br />
             Born in Bogotá, Colombia.
           </BioSection>
           <BioSection>
-            <BioYear>2014-2019</BioYear>
+            <BioYear>2014-2019</BioYear> <br />
             Bachelors degree on Music Composition and Scripting at
             UNLP (Universidad Nacional de La Plata)
           </BioSection>
           <BioSection>
-            <BioYear>2019-2023</BioYear>
+            <BioYear>2019-2023</BioYear> <br />
             Bachelors degree on Public Relations and Institutional Communication at
             UADE (Universidad Argentina de la Empresa)
           </BioSection>
           <BioSection>
-            <BioYear>2021</BioYear>
+            <BioYear>2021</BioYear> <br />
             Completed Software Engineer - FullStack PERN on HENRY
           </BioSection>
           <BioSection>
-            <BioYear>2022 to 2023</BioYear>
-            Web3 degree and entrepeneurship with AI on Platzi 
+            <BioYear>2022 to 2023</BioYear> <br />
+            Web3 degree and entrepeneurship with AI on Platzi
           </BioSection>
           <BioSection>
-            <BioYear>2023 to present</BioYear>
-            Creating a Vortex Lab Digital Agency 
+            <BioYear>2023 to present</BioYear> <br />
+            Creating a Vortex Lab Digital Agency
           </BioSection>
         </Section>
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-          Reach me for
+            Reach me for
           </Heading>
           <Paragraph>
-          Art, Music,{' '}
+            Art, Music,{' '}
             ,Comunication, Disruptive ideas on tech ..
           </Paragraph>
         </Section>
 
         <Section delay={0.3}>
           <Heading as="h3" fontSize={25} variant="section-title">
-            Connect 
+            Connect
           </Heading>
           <List>
             <ListItem>
@@ -234,7 +234,7 @@ const Home = () => {
                 </Button>
               </Link>
             </ListItem>
-         
+
           </List>
 
           {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
@@ -334,9 +334,9 @@ const Home = () => {
 
           <Box align="center" my={4}>
             <NextLink href="/posts">
-              <Button rightIcon={<ChevronRightIcon />} 
-              variant='outline'
-              colorScheme="purple">
+              <Button rightIcon={<ChevronRightIcon />}
+                variant='outline'
+                colorScheme="purple">
                 Certifications
               </Button>
             </NextLink>
