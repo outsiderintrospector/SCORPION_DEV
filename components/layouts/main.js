@@ -26,10 +26,10 @@ const Main = ({ children, router }) => {
         <meta name="twitter:site" content="@human_codex" />
         <meta name="twitter:creator" content="@human_codex" />
         <meta name="twitter:image" content="/icon.png" />
-        <meta property="og:site_name" content="human_codex" />
+        <meta property="og:site_name" content="OUTSIDER INTROSPECTOR" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/favicon.ico" />
-        <title>CREATOR AND COLLECTOR </title>
+        <title>Creator and collector </title>
       </Head>
 
       <NavBar path={router.asPath} />
