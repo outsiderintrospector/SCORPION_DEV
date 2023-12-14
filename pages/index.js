@@ -148,21 +148,43 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019-2023</BioYear> <br />
-            Bachelors degree on Public Relations and Institutional Communication at
-            UADE (Universidad Argentina de la Empresa)
+            Bachelors degree on Public Relations and Institutional Communication at  <Link color='teal.200' href='https://www.uade.edu.ar/acerca-de-uade/la-universidad/'>
+              UADE
+            </Link>  (Universidad Argentina de la Empresa)
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear> <br />
-            Completed Software Engineer - FullStack PERN on HENRY
+            Completed Software Engineer - FullStack PERN on <Link color='teal.200' href='https://www.soyhenry.com/'>
+              HENRY
+            </Link>  
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear> <br />
             Web3 degree and entrepeneurship with AI on Platzi
           </BioSection>
+          
           <BioSection>
             <BioYear>2022 - NOW</BioYear> <br />
-            Creating a Vortex Lab Digital Agency
+            Creating a  <Link color='purple.500' href='https://vortex-lab.vercel.app/'>
+              Vortex Lab Software Agency
+            </Link>  
           </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear> <br />
+            • Winner of <Link color='teal.200' href='https://cedalio.com/'>
+              Cedalio
+            </Link>  Track Hackathon on <Link color='teal.200' href='https://keywise.com.ar/'>
+              King Of Devs
+            </Link>  with  <Link color='purple.500' href='https://keywise.com.ar/'>
+               KeyWise
+            </Link>    
+            <br />
+            • Finalist on  <Link color='teal.200' href='https://info.algorand.foundation/es/algorand-foundation-labitconf-2023/'>
+              Algorand
+            </Link> Hackathon with a GreenOasis DAO 
+            
+          </BioSection>
+
         </Section>
 
         <Section delay={0.3}>
@@ -171,13 +193,13 @@ const Home = () => {
           </Heading>
           <Paragraph>
             Art, Music,{' '}
-            ,Comunication, Disruptive ideas on tech ..
+            ,Comunication and  Disruptive solutions on tech ...
           </Paragraph>
         </Section>
 
         <Section delay={0.3}>
           <Heading as="h3" fontSize={25} variant="section-title">
-            Connect
+           NETWORKS 
           </Heading>
           <List>
             <ListItem>
