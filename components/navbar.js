@@ -119,9 +119,9 @@ const Navbar = props => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Certifications</MenuItem>
                 </NextLink>
-                <NextLink href="http://stardust1031.s3-website-us-east-1.amazonaws.com" target="_blank" passHref>
+                {/* <NextLink href="http://stardust1031.s3-website-us-east-1.amazonaws.com" target="_blank" passHref>
                   <MenuItem as={Link}>CV</MenuItem>
-                </NextLink>
+                </NextLink> */}
                 <MenuItem
                   as={Link}
                   href="https://github.com/tech-tinker/SCORPION_DEV"

@@ -6,7 +6,8 @@ import englishForDevs from '../public/images/Portafolio/certifications/diploma-i
 import solidity from '../public/images/Portafolio/certifications/diploma-solidity_8002487_1.jpg'
 import web3Basics from '../public/images/Portafolio/certifications/diploma-fundamentos-web3_8002465_1.jpg'
 import ethereumForDevs from '../public/images/Portafolio/certifications/diploma-ethereum-developers_8002448_1.jpg'
-
+import AWScloud from "../public/images/Portafolio/certifications/aws.jpg"
+import GPTchat from "../public/images/Portafolio/certifications/chatgpt.jpg"
 
 const Posts = () => (
   <Layout title="Posts">
@@ -19,14 +20,24 @@ const Posts = () => (
       <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
+            title="AWS"
+            thumbnail={AWScloud}
+          
+          />
+          <GridItem
+            title="AI Fine-tuning"
+            thumbnail={GPTchat}
+         
+          />
+          <GridItem
             title="Good English Skills "
             thumbnail={englishForDevs}
-            // href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820"
+            
           />
           <GridItem
             title="Understanding of Solidity Language"
             thumbnail={solidity}
-            // href="https://blog.inkdrop.app/i-stopped-setting-a-financial-goal-for-my-saas-a92c3db65506"
+            
           />
         </SimpleGrid>
       </Section>
@@ -36,12 +47,12 @@ const Posts = () => (
           <GridItem
             title="The basics of web3"
             thumbnail={web3Basics}
-            // href="https://blog.inkdrop.app/how-to-price-yourself-as-a-freelance-developer-3453dfd59d91"
+          
           />
           <GridItem
             title="Ethereum DEV"
             thumbnail={ethereumForDevs}
-            // href="https://www.youtube.com/watch?v=vj723NlrIQc"
+          
           />
         </SimpleGrid>
       </Section>
