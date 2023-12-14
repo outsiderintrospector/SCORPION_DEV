@@ -1,6 +1,7 @@
 import React from 'react'
 import NextLink from 'next/link'
 import {
+  Text,
   Link,
   Container,
   Heading,
@@ -80,7 +81,8 @@ const Home = () => {
           textAlign="center"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         >
-          Unlocking the Future: Your Web3, AI, and Mobile Solutions Architect
+          <Text as='b'>Unlocking the Future: Your Web3, AI, E-commerce and Mobile Solutions Architect</Text>
+          
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -148,13 +150,13 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019-2023</BioYear> <br />
-            Bachelors degree on Public Relations and Institutional Communication at  <Link color='teal.200' href='https://www.uade.edu.ar/acerca-de-uade/la-universidad/'>
+            Bachelors degree on Public Relations and Institutional Communication at  <Link color='teal.500' href='https://www.uade.edu.ar/acerca-de-uade/la-universidad/'>
               UADE
             </Link>  (Universidad Argentina de la Empresa)
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear> <br />
-            Completed Software Engineer - FullStack PERN on <Link color='teal.200' href='https://www.soyhenry.com/'>
+            Completed Software Engineer - FullStack PERN on <Link color='teal.500' href='https://www.soyhenry.com/'>
               HENRY
             </Link>  
           </BioSection>
@@ -171,15 +173,15 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear> <br />
-            • Winner of <Link color='teal.200' href='https://cedalio.com/'>
+            • Winner of <Link color='teal.500' href='https://cedalio.com/'>
               Cedalio
-            </Link>  Track Hackathon on <Link color='teal.200' href='https://keywise.com.ar/'>
+            </Link>  Track Hackathon on <Link color='teal.500' href='https://keywise.com.ar/'>
               King Of Devs
             </Link>  with  <Link color='purple.500' href='https://keywise.com.ar/'>
                KeyWise
             </Link>    
             <br />
-            • Finalist on  <Link color='teal.200' href='https://info.algorand.foundation/es/algorand-foundation-labitconf-2023/'>
+            • Finalist on  <Link color='teal.500' href='https://info.algorand.foundation/es/algorand-foundation-labitconf-2023/'>
               Algorand
             </Link> Hackathon with a GreenOasis DAO 
             
@@ -261,18 +263,18 @@ const Home = () => {
 
           {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
+            href=""
+            title=""
             thumbnail={thumbYouTube}
           >
             My YouTube channel
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
+            href=""
+            title=""
             thumbnail={thumbInkdrop}
           >
-            A Markdown note-taking app
+           
           </GridItem>
         </SimpleGrid> */}
           {/* contact */}
