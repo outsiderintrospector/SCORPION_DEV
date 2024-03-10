@@ -167,7 +167,7 @@ const Home = () => {
           
           <BioSection>
             <BioYear>2022 - NOW</BioYear> <br />
-            Creating a  <Link color='purple.500' href='https://vortex-lab.vercel.app/'>
+            Creating a  <Link color='purple.800' href='https://vortex-lab.vercel.app/'>
               Vortex Lab Software Agency
             </Link>  
           </BioSection>
@@ -177,15 +177,29 @@ const Home = () => {
               Cedalio
             </Link>  Track Hackathon on <Link color='teal.500' href='https://keywise.com.ar/'>
               King Of Devs
-            </Link>  with  <Link color='purple.500' href='https://keywise.com.ar/'>
+            </Link>  with  <Link color='purple.800' href='https://keywise.com.ar/'>
                KeyWise
             </Link>    
             <br />
             • Finalist on  <Link color='teal.500' href='https://info.algorand.foundation/es/algorand-foundation-labitconf-2023/'>
               Algorand
-            </Link> Hackathon with a GreenOasis DAO 
+            </Link> Hackathon with Cannart Collective DAO 
             
           </BioSection>
+          <BioSection>
+            <BioYear>2024 - NOW</BioYear> <br />
+            • Winner of <Link color='teal.500' href='https://cedalio.com/'>
+              1st Solana 
+            </Link>   Hackathon on Argentina <Link color='teal.500' href='https://solana.com/es'>
+             
+            </Link>  with  <Link color='purple.800' href='https://www.linkedin.com/company/nexus-rent'>
+              NEXUS
+            </Link>
+            <br />
+        
+
+          </BioSection>
+
 
         </Section>
 
