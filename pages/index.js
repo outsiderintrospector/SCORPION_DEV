@@ -105,7 +105,7 @@ const Home = () => {
               maxWidth="180px"
               display="inline-block"
               borderRadius="full"
-              src="/images/john.jpg"
+              src="/images/da.webp"
               alt="Profile image"
             />
           </Box>
@@ -121,7 +121,7 @@ const Home = () => {
             <ListItem>Dedicated to enhancing art and design through digital solutions</ListItem>
             <ListItem>Innovative problem solver from planning to coding</ListItem>
             <ListItem>Strong leadership and communication skills</ListItem>
-            <ListItem>Passion for exploring new ideas in music , art and tech🔮</ListItem>
+            <ListItem>Passion for exploring new ideas in Music , Blockchain and Ai 🔮</ListItem>
           </UnorderedList>
 
           <Box align="center" my={4}>
@@ -139,10 +139,10 @@ const Home = () => {
           <Heading as="h3" fontSize={25} variant="section-title">
             Education
           </Heading>
-          <BioSection>
+          {/* <BioSection>
             <BioYear>1995</BioYear> <br />
             Born in Bogotá, Colombia.
-          </BioSection>
+          </BioSection> */}
           <BioSection>
             <BioYear>2014-2019</BioYear> <br />
             Bachelors degree on Music Composition and Scripting at
@@ -160,10 +160,10 @@ const Home = () => {
               HENRY
             </Link>  
           </BioSection>
-          <BioSection>
+          {/* <BioSection>
             <BioYear>2022</BioYear> <br />
             Web3 degree and entrepeneurship with AI on Platzi
-          </BioSection>
+          </BioSection> */}
           
           <BioSection>
             <BioYear>2022 - NOW</BioYear> <br />
