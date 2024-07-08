@@ -15,10 +15,10 @@ const Work = () => (
   <Layout title="Invermint">
     <Container>
       <Title>
-        Invermint<Badge>2023</Badge><Badge>2024</Badge>
+        Invermint  <Badge>2023</Badge> - <Badge>2024</Badge>
       </Title>
       <P>
-        This is a Real state platform that allows you to invest in real state properties with only 100$ usdt / usdc , my role was in backend and frontend development.Also setting up the infrastructure in AWS/Vercel.
+        This is a Real state platform that allows to invest in real state properties with only 100$ usdt / usdc , my role was in backend and frontend development. Also setting up the infrastructure in AWS/ Vercel.
       </P>
 
       <UnorderedList my={4}>
@@ -30,7 +30,7 @@ const Work = () => (
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Tipe of work</Meta>
+          <Meta>Type of work</Meta>
           <span>Freelancing</span>
         </ListItem>
         <ListItem>
@@ -39,7 +39,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>JavaScript,Solidity, NextJs, HardHat , EthersJs , CSS, Next js , Polygon , OpenPay , Thirdweb  </span>
+          <span>JavaScript,Solidity, NextJs, HardHat , EthersJs , CSS, Next js , Polygon , OpenPay , Thirdweb , Clerk auth </span>
         </ListItem>
 
         {/* <ListItem>
@@ -71,10 +71,11 @@ const Work = () => (
           />
         </Link>
       </Box> */}
-
-      <WorkImage src="/images/Portafolio/" alt="crypto" />
-
-      <WorkImage src="/images/Portafolio/cryptoDevs/1.png" alt="crypto" />
+  
+      <WorkImage src="/images/Portafolio/invermint/1.webp" alt="invermint" />
+      <WorkImage src="/images/Portafolio/invermint/2.webp" alt="invermint" />
+      <WorkImage src="/images/Portafolio/invermint/3.webp" alt="invermint" />
+      <WorkImage src="/images/Portafolio/invermint/4.webp" alt="invermint" />
 
     </Container>
   </Layout>
