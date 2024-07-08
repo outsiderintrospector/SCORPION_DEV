@@ -15,62 +15,38 @@ const Work = () => (
   <Layout title="CriptoDevs">
     <Container>
       <Title>
-        CriptoDevs<Badge>2022</Badge>
+        SmartBlocks<Badge>2024</Badge>
       </Title>
       <P>
-        This is an amazing BlockChain WhaitList!
+        The great landing page for a web3-Ai agency centered on beautiful design and user experience based on great animations and transitions with tailwind css and framer motion
       </P>
 
-      <UnorderedList my={4}>
-        <ListItem>Connect your wallet</ListItem>
-        <ListItem>Request a ticket</ListItem>
-        <ListItem>Receive a ticket in your account</ListItem>
-      </UnorderedList>
+
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
           <span>WEB</span>
+          <span>mobile</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>JavaScript,Solidity, NextJs, HardHat , EthersJs , CSS </span>
+          <span>Typescript, NextJs , tailwind </span>
         </ListItem>
 
-        <ListItem>
-          <Meta>Source</Meta>
-          <Link href="https://github.com/jusebdev/whitelistDapp">
-            github.com/jusebdev/whitelistDapp <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
+
 
         <ListItem>
           <Meta>see online</Meta>
-          <Link href="https://whitelist-dapp-five-sepia.vercel.app/">
+          <Link href="https://www.smartblocks.tech">
             LINK <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
 
-      {/* <Box align="center" my={6}>
-        <Link
-          className="link-appstore"
-          href="https://itunes.apple.com/app/id1035645520?mt=8"
-          target="_blank"
-        >
-          <Image
-            maxW={240}
-            src="/images/works/appstore.png"
-            className="image-appstore"
-            alt="Download on App Store"
-          />
-        </Link>
-      </Box> */}
-
-      <WorkImage src="/images/Portafolio/cryptoDevs/2.png" alt="crypto" />
-
-      <WorkImage src="/images/Portafolio/cryptoDevs/1.png" alt="crypto" />
-
+      <WorkImage src="/images/Portafolio/smartblocks/1.webp" alt="smrt" />
+      <WorkImage src="/images/Portafolio/smartblocks/2.webp" alt="smrt" />
+      <WorkImage src="/images/Portafolio/smartblocks/3.webp" alt="smrt" />
     </Container>
   </Layout>
 )
