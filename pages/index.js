@@ -167,8 +167,8 @@ const Home = () => {
 
           <BioSection>
             <BioYear>2022 - NOW</BioYear> <br />
-            Creating a  <Link color='purple.800' href='https://vortex-lab.vercel.app/'>
-              Vortex Lab Software Agency
+            Creating a  <Link color='purple.800' href='https://smartblocks.tech'>
+              SmartBlocks
             </Link>
           </BioSection>
           <BioSection>
