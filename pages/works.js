@@ -2,14 +2,17 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-
-
 import findSpot from '../public/images/Portafolio/FindSpot/findSpot.jpg'
 import foodly from '../public/images/Portafolio/Foodly/landing.png'
 import medium from '../public/images/Portafolio/medium/medium.png'
 import cryptoDevs from '../public/images/Portafolio/cryptoDevs/2.png'
 import byYou from '../public/images/Portafolio/ByYouApp/home.png'
 import NFT from '../public/images/Portafolio/Nft-collection/home.png'
+import Invermint from '../public/images/Portafolio/invermint/1.webp'
+import Ikigai from '../public/images/Portafolio/ikigai/1.webp'
+import Smartblocks from '../public/images/Portafolio/Smartblocks/1.webp'
+
+
 
 const Works = () => (
   <Layout title="Works">
@@ -19,6 +22,38 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="smartblocks"
+            title="Smartblocks"
+            thumbnail={Smartblocks}
+          >
+
+            A platform for a web3-Ai agency centered on beautiful design and user experience based on great animations and transitions
+          </WorkGridItem>
+        </Section>
+
+
+
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="ikigai"
+            title="Ikigai"
+            thumbnail={Ikigai}
+          >
+          A real state platform made on webflow with choices for different users and mobile first centered
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="invermint"
+            title="Invermint"
+            thumbnail={Invermint}
+          >
+            A Real State tokenization Platform made on Next js and Solidity with a lot of features for investors
+          </WorkGridItem>
+        </Section>
+    
         <Section delay={0.1}>
           <WorkGridItem
             id="medium"
@@ -46,7 +81,7 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem id="findSpot" title="FindSpot" thumbnail={findSpot}>
-           An app developed in React Native/Redux  with the purpose to connect unique people with unique events globally
+            An app developed in React Native/Redux  with the purpose to connect unique people with unique events globally
           </WorkGridItem>
         </Section>
         <Section>
@@ -55,11 +90,11 @@ const Works = () => (
             title="FOODLY"
             thumbnail={foodly}
           >
-         React/Redux Recipes web page with sorting options and creator mode 
+            React/Redux Recipes web page with sorting options and creator mode
           </WorkGridItem>
         </Section>
 
-       
+
         {/* <Section delay={0.1}>
           <WorkGridItem id="ByYou" thumbnail={byYou} title="WhiteList-Dapp">
            Coffee product page , went from mockup to integration with strapi endpoints , shopping cart and styles 

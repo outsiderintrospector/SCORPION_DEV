@@ -48,8 +48,8 @@ const Work = () => (
      
         <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://github.com/jusebdev/medium">
-            github.com/jusebdev/medium <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/humancodex/medium">
+            github.com/humancodex <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
