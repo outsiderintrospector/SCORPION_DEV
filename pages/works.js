@@ -11,7 +11,7 @@ import NFT from '../public/images/Portafolio/Nft-collection/home.png'
 import Invermint from '../public/images/Portafolio/invermint/1.webp'
 import Ikigai from '../public/images/Portafolio/ikigai/1.webp'
 import Smartblocks from '../public/images/Portafolio/Smartblocks/1.webp'
-
+import Nexus from '../public/images/Portafolio/nexus/2.png'
 
 
 const Works = () => (
@@ -20,6 +20,11 @@ const Works = () => (
       <Heading as="h1" fontSize={40} mb={4}>
         Works
       </Heading>
+      <Section delay={0.1}>
+        <WorkGridItem id="nexus" title="Nexus" thumbnail={Nexus}>
+          Rent your next experience with a platform for renting unique places
+        </WorkGridItem>
+      </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.1}>
@@ -28,72 +33,79 @@ const Works = () => (
             title="Smartblocks"
             thumbnail={Smartblocks}
           >
-
-            A platform for a web3-Ai agency centered on beautiful design and user experience based on great animations and transitions
-          </WorkGridItem>
-        </Section>
-
-
-
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="ikigai"
-            title="Ikigai"
-            thumbnail={Ikigai}
-          >
-          A real state platform made on webflow with choices for different users and mobile first centered
+            A platform for a web3-Ai agency centered on beautiful design and
+            user experience based on great animations and transitions
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem
-            id="invermint"
-            title="Invermint"
-            thumbnail={Invermint}
+            id="smartblocks"
+            title="Smartblocks"
+            thumbnail={Smartblocks}
           >
-            A Real State tokenization Platform made on Next js and Solidity with a lot of features for investors
+            A platform for a web3-Ai agency centered on beautiful design and
+            user experience based on great animations and transitions
           </WorkGridItem>
         </Section>
-    
+
+        <Section delay={0.1}>
+          <WorkGridItem id="ikigai" title="Ikigai" thumbnail={Ikigai}>
+            A real state platform made on webflow with choices for different
+            users and mobile first centered
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="invermint" title="Invermint" thumbnail={Invermint}>
+            A Real State tokenization Platform made on Next js and Solidity with
+            a lot of features for investors
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem id="medium" title="Medium" thumbnail={medium}>
+            A Medium space clone made on Typescript and Sanity Cms with some
+            surprises on content for devs
+          </WorkGridItem>
+        </Section>
         <Section delay={0.1}>
           <WorkGridItem
-            id="medium"
-            title="Medium"
-            thumbnail={medium}
+            id="cryptoDevs"
+            thumbnail={cryptoDevs}
+            title="WhiteList-Dapp"
           >
-            A Medium space clone made on Typescript and Sanity Cms with some surprises on content for devs
+            A web3 page with the posibility of access to a certain amount of
+            tickets for releasing features, first implementation of a smart
+            contract
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="cryptoDevs" thumbnail={cryptoDevs} title="WhiteList-Dapp">
-            A web3 page with the posibility of access to a certain amount of tickets for releasing features, first implementation of a smart contract
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="Nft-collection" thumbnail={NFT} title="Nft-collection">
-            There should only exist 20 Crypto Dev NFT's and each one of them should be unique.
-            User's should be able to mint only 1 NFT with one transaction.
+          <WorkGridItem
+            id="Nft-collection"
+            thumbnail={NFT}
+            title="Nft-collection"
+          >
+            There should only exist 20 Crypto Dev NFT's and each one of them
+            should be unique. User's should be able to mint only 1 NFT with one
+            transaction.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="ByYou" thumbnail={byYou} title="E-Commerce">
-            Coffee product page , went from mockup to integration with strapi endpoints , shopping cart and styles
+            Coffee product page , went from mockup to integration with strapi
+            endpoints , shopping cart and styles
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem id="findSpot" title="FindSpot" thumbnail={findSpot}>
-            An app developed in React Native/Redux  with the purpose to connect unique people with unique events globally
+            An app developed in React Native/Redux with the purpose to connect
+            unique people with unique events globally
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem
-            id="foodly"
-            title="FOODLY"
-            thumbnail={foodly}
-          >
+          <WorkGridItem id="foodly" title="FOODLY" thumbnail={foodly}>
             React/Redux Recipes web page with sorting options and creator mode
           </WorkGridItem>
         </Section>
-
 
         {/* <Section delay={0.1}>
           <WorkGridItem id="ByYou" thumbnail={byYou} title="WhiteList-Dapp">

@@ -15,38 +15,38 @@ const Work = () => (
   <Layout title="CriptoDevs">
     <Container>
       <Title>
-        Avanti<Badge>2024</Badge>
+        CriptoDevs<Badge>2022</Badge>
       </Title>
       <P>
-        Group Agency 
+        This is an amazing BlockChain WhaitList!
       </P>
 
-      {/* <UnorderedList my={4}>
+      <UnorderedList my={4}>
         <ListItem>Connect your wallet</ListItem>
         <ListItem>Request a ticket</ListItem>
         <ListItem>Receive a ticket in your account</ListItem>
-      </UnorderedList> */}
+      </UnorderedList>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>WEB APP</span>
+          <span>WEB</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Next Js , Typescript , React , Tailwind , Thirdweb , Walletconnect  </span>
+          <span>JavaScript,Solidity, NextJs, HardHat , EthersJs , CSS </span>
         </ListItem>
 
-        {/* <ListItem>
+        <ListItem>
           <Meta>Source</Meta>
           <Link href="https://github.com/jusebdev/whitelistDapp">
             github.com/jusebdev/whitelistDapp <ExternalLinkIcon mx="2px" />
           </Link>
-        </ListItem> */}
+        </ListItem>
 
         <ListItem>
           <Meta>see online</Meta>
-          <Link href="https://nxtoken.xyz/">
+          <Link href="https://whitelist-dapp-five-sepia.vercel.app/">
             LINK <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

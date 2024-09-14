@@ -81,8 +81,10 @@ const Home = () => {
           textAlign="center"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         >
-          <Text as='b'>Unlocking the Future: Your Web3, AI, E-commerce and Mobile Solutions Architect</Text>
-
+          <Text as="b">
+            Unlocking the Future: Your Web3, AI, E-commerce and Mobile Solutions
+            Architect
+          </Text>
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -118,17 +120,25 @@ const Home = () => {
 
           <UnorderedList>
             <ListItem>Experienced freelancer & full-stack developer</ListItem>
-            <ListItem>Dedicated to enhancing art and design through digital solutions</ListItem>
-            <ListItem>Innovative problem solver from planning to coding</ListItem>
+            <ListItem>
+              Dedicated to enhancing art and design through digital solutions
+            </ListItem>
+            <ListItem>
+              Innovative problem solver from planning to coding
+            </ListItem>
             <ListItem>Strong leadership and communication skills</ListItem>
-            <ListItem>Passion for exploring new ideas in Music , Blockchain and Ai 🔮</ListItem>
+            <ListItem>
+              Passion for exploring new ideas in Music , Blockchain and Ai 🔮
+            </ListItem>
           </UnorderedList>
 
           <Box align="center" my={4}>
             <NextLink href="/works">
-              <Button rightIcon={<ChevronRightIcon />}
-                variant='outline'
-                colorScheme="purple">
+              <Button
+                rightIcon={<ChevronRightIcon />}
+                variant="outline"
+                colorScheme="purple"
+              >
                 Portfolio
               </Button>
             </NextLink>
@@ -145,18 +155,25 @@ const Home = () => {
           </BioSection> */}
           <BioSection>
             <BioYear>2014-2019</BioYear> <br />
-            Bachelors degree on Music Composition and Scripting at
-            UNLP (Universidad Nacional de La Plata)
+            Bachelors degree on Music Composition and Scripting at UNLP
+            (Universidad Nacional de La Plata)
           </BioSection>
           <BioSection>
             <BioYear>2019-2023</BioYear> <br />
-            Bachelors degree on Public Relations and Institutional Communication at  <Link color='teal.500' href='https://www.uade.edu.ar/acerca-de-uade/la-universidad/'>
+            Bachelors degree on Public Relations and Institutional Communication
+            at{' '}
+            <Link
+              color="teal.500"
+              href="https://www.uade.edu.ar/acerca-de-uade/la-universidad/"
+            >
               UADE
-            </Link>  (Universidad Argentina de la Empresa)
+            </Link>{' '}
+            (Universidad Argentina de la Empresa)
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear> <br />
-            Completed Software Engineer - FullStack PERN on <Link color='teal.500' href='https://www.soyhenry.com/'>
+            Completed Software Engineer - FullStack PERN on{' '}
+            <Link color="teal.500" href="https://www.soyhenry.com/">
               HENRY
             </Link>
           </BioSection>
@@ -165,42 +182,56 @@ const Home = () => {
             Web3 degree and entrepeneurship with AI on Platzi
           </BioSection> */}
 
-          <BioSection>
+          {/* <BioSection>
             <BioYear>2022 - NOW</BioYear> <br />
             Creating a  <Link color='purple.800' href='https://smartblocks.tech'>
               SmartBlocks
             </Link>
-          </BioSection>
+          </BioSection> */}
           <BioSection>
-            <BioYear>2023</BioYear> <br />
-            • Winner of <Link color='teal.500' href='https://cedalio.com/'>
+            <BioYear>2023</BioYear> <br />• Winner of{' '}
+            <Link color="teal.500" href="https://cedalio.com/">
               Cedalio
-            </Link>  Track Hackathon on <Link color='teal.500' href='https://keywise.com.ar/'>
+            </Link>{' '}
+            Track Hackathon on{' '}
+            <Link color="teal.500" href="https://keywise.com.ar/">
               King Of Devs
-            </Link>  with  <Link color='purple.800' href='https://keywise.com.ar/'>
+            </Link>{' '}
+            with{' '}
+            <Link color="purple.300" href="https://keywise.com.ar/">
               KeyWise
             </Link>
-            <br />
-            • Finalist on  <Link color='teal.500' href='https://info.algorand.foundation/es/algorand-foundation-labitconf-2023/'>
+            <br />• Finalist on{' '}
+            <Link
+              color="teal.500"
+              href="https://info.algorand.foundation/es/algorand-foundation-labitconf-2023/"
+            >
               Algorand
-            </Link> Hackathon with Cannart Collective DAO
-
+            </Link>{' '}
+            Hackathon with Cannart Collective DAO
           </BioSection>
           <BioSection>
-            <BioYear>2024 - NOW</BioYear> <br />
-            • Winner of <Link color='teal.500' href='https://cedalio.com/'>
-              1st Solana
-            </Link>   Hackathon on Argentina <Link color='teal.500' href='https://solana.com/es'>
-
-            </Link>  with  <Link color='purple.800' href='https://www.linkedin.com/company/nexus-rent'>
+            <BioYear>2024 - NOW</BioYear> <br />• Winner of 1st{' '}
+            <Link color="teal.500" href="https://cedalio.com/">
+              Solana
+            </Link>{' '}
+            Hackathon on Argentina{' '}
+            <Link color="teal.500" href="https://solana.com/es"></Link> with{' '}
+            <Link color="purple.300" href="https://nxtoken.xyz">
               NEXUS
             </Link>
-            <br />
-
-
+            <br />• Finalist on{' '}
+            <Link
+              color="teal.500"
+              href="https://info.algorand.foundation/es/algorand-foundation-labitconf-2023/"
+            >
+              BNB (Binance)
+            </Link>{' '}
+            Global Hackathon with{' '}
+            <Link color="purple.300" href="https://lander-flame.vercel.app">
+              CriptoBed - Lander
+            </Link>
           </BioSection>
-
-
         </Section>
 
         <Section delay={0.3}>
@@ -208,8 +239,7 @@ const Home = () => {
             Reach me for
           </Heading>
           <Paragraph>
-            Art, Music,{' '}
-            ,Comunication and  Disruptive solutions on tech ...
+            Art, Music, ,Comunication and Disruptive solutions on tech ...
           </Paragraph>
         </Section>
 
@@ -219,10 +249,7 @@ const Home = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link
-                href="https://www.instagram.com/humancodex"
-                target="_blank"
-              >
+              <Link href="https://www.instagram.com/humancodex" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="purple"
@@ -233,10 +260,7 @@ const Home = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link
-                href="https://github.com/humancodex"
-                target="_blank"
-              >
+              <Link href="https://github.com/humancodex" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="purple"
@@ -272,7 +296,6 @@ const Home = () => {
                 </Button>
               </Link>
             </ListItem>
-
           </List>
 
           {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
@@ -298,7 +321,7 @@ const Home = () => {
             VORTEX
           </Heading>
           <Heading as="h4" fontSize={25} variant="section-title">
-            ⇃ SUBSCRIBE TO  AI - TECH - MUSIC - ART NEWSLETTER HERE ⇂
+            ⇃ SUBSCRIBE TO AI - TECH - MUSIC - ART NEWSLETTER HERE ⇂
           </Heading>
 
           <form>
@@ -375,9 +398,11 @@ const Home = () => {
 
           <Box align="center" my={4}>
             <NextLink href="/posts">
-              <Button rightIcon={<ChevronRightIcon />}
-                variant='outline'
-                colorScheme="purple">
+              <Button
+                rightIcon={<ChevronRightIcon />}
+                variant="outline"
+                colorScheme="purple"
+              >
                 Certifications
               </Button>
             </NextLink>

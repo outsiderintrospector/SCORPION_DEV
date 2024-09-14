@@ -15,26 +15,25 @@ const Work = () => (
   <Layout title="CriptoDevs">
     <Container>
       <Title>
-        Avanti<Badge>2024</Badge>
+        NEXUS<Badge>2024</Badge>
       </Title>
-      <P>
-        Group Agency 
-      </P>
+      <P>RENT YOUR NEXT EXPERIENCE</P>
 
-      {/* <UnorderedList my={4}>
-        <ListItem>Connect your wallet</ListItem>
-        <ListItem>Request a ticket</ListItem>
-        <ListItem>Receive a ticket in your account</ListItem>
-      </UnorderedList> */}
+      <UnorderedList my={4}>
+        <ListItem>Look for your place </ListItem>
+        <ListItem>Reserve and get rewards </ListItem>
+        <ListItem>Get your experience </ListItem>
+        <ListItem>Repeat </ListItem>
+      </UnorderedList>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>WEB APP</span>
+          <span>WEB</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Next Js , Typescript , React , Tailwind , Thirdweb , Walletconnect  </span>
+          <span>Stripe Shopify Next.js TypeScript GraphQL</span>
         </ListItem>
 
         {/* <ListItem>
@@ -43,13 +42,6 @@ const Work = () => (
             github.com/jusebdev/whitelistDapp <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem> */}
-
-        <ListItem>
-          <Meta>see online</Meta>
-          <Link href="https://nxtoken.xyz/">
-            LINK <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
       </List>
 
       {/* <Box align="center" my={6}>
@@ -67,10 +59,16 @@ const Work = () => (
         </Link>
       </Box> */}
 
-      <WorkImage src="/images/Portafolio/cryptoDevs/2.png" alt="crypto" />
+      <WorkImage src="/images/Portafolio/nexus/1.png" alt="crypto" />
 
-      <WorkImage src="/images/Portafolio/cryptoDevs/1.png" alt="crypto" />
+      <WorkImage src="/images/Portafolio/nexus/2.png" alt="crypto" />
+      <WorkImage src="/images/Portafolio/nexus/3.png" alt="crypto" />
 
+      <WorkImage src="/images/Portafolio/nexus/4.png" alt="crypto" />
+      <WorkImage src="/images/Portafolio/nexus/5.png" alt="crypto" />
+
+      <WorkImage src="/images/Portafolio/nexus/6.png" alt="crypto" />
+      <WorkImage src="/images/Portafolio/nexus/7.png" alt="crypto" />
     </Container>
   </Layout>
 )
