@@ -44,9 +44,9 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/Portafolio/smartblocks/1.webp" alt="smrt" />
-      <WorkImage src="/images/Portafolio/smartblocks/2.webp" alt="smrt" />
-      <WorkImage src="/images/Portafolio/smartblocks/3.webp" alt="smrt" />
+      <WorkImage src="/images/Portafolio/Smartblocks/1.webp" alt="smrt" />
+      <WorkImage src="/images/Portafolio/Smartblocks/2.webp" alt="smrt" />
+      <WorkImage src="/images/Portafolio/Smartblocks/3.webp" alt="smrt" />
     </Container>
   </Layout>
 )
