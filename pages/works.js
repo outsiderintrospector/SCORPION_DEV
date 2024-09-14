@@ -20,23 +20,14 @@ const Works = () => (
       <Heading as="h1" fontSize={40} mb={4}>
         Works
       </Heading>
-      <Section delay={0.1}>
-        <WorkGridItem id="nexus" title="Nexus" thumbnail={Nexus}>
-          Rent your next experience with a platform for renting unique places
-        </WorkGridItem>
-      </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.1}>
-          <WorkGridItem
-            id="smartblocks"
-            title="Smartblocks"
-            thumbnail={Smartblocks}
-          >
-            A platform for a web3-Ai agency centered on beautiful design and
-            user experience based on great animations and transitions
+          <WorkGridItem id="nexus" title="Nexus" thumbnail={Nexus}>
+            Rent your next experience with a platform for renting unique places
           </WorkGridItem>
         </Section>
+
         <Section delay={0.1}>
           <WorkGridItem
             id="smartblocks"
@@ -47,6 +38,16 @@ const Works = () => (
             user experience based on great animations and transitions
           </WorkGridItem>
         </Section>
+        {/* <Section delay={0.1}>
+          <WorkGridItem
+            id="smartblocks"
+            title="Smartblocks"
+            thumbnail={Smartblocks}
+          >
+            A platform for a web3-Ai agency centered on beautiful design and
+            user experience based on great animations and transitions
+          </WorkGridItem>
+        </Section> */}
 
         <Section delay={0.1}>
           <WorkGridItem id="ikigai" title="Ikigai" thumbnail={Ikigai}>
