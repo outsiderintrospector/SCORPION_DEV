@@ -147,7 +147,7 @@ const Home = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" fontSize={25} variant="section-title">
-            Education
+            Achievements
           </Heading>
           {/* <BioSection>
             <BioYear>1995</BioYear> <br />
