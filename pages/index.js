@@ -171,7 +171,7 @@ const Home = () => {
             (Universidad Argentina de la Empresa)
           </BioSection>
           <BioSection>
-            <BioYear>2021</BioYear> <br />
+            <BioYear>2020</BioYear> <br />
             Completed Software Engineer - FullStack PERN on{' '}
             <Link color="teal.500" href="https://www.soyhenry.com/">
               HENRY
